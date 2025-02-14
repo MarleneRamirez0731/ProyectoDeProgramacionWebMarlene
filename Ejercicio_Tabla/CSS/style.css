@@ -1,0 +1,18 @@
+p{
+    font-family:Arial, sans-serif; 
+    font-size: 18px;
+    color: #58d47d;
+}
+table{
+    width: 100px;
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid #55b4e0;
+    padding:8px;
+    text-align: left;
+
+}
+th{
+    background-color: #ec93bd;
+}
