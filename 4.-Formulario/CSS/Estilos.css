@@ -1,0 +1,11 @@
+input, select, button{
+    padding: 10px;
+    margin: 5px;
+    background-color: aqua;
+}
+.parrafotitulo{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: rgb(255, 230, 0);
+
+}

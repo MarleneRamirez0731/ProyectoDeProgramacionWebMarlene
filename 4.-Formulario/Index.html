@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/Estilos.css">
+    <title>Formularios</title>  
+</head>
+<body>
+    <h1 class="parrafotitulo" >Formulario de Ejemplo</h1>
+    <form action="/submit" method="post">
+        <label form="name"> Nombre:</label>
+        <input type="text" id="name" name="name" required><br></br>
+
+        <label form="email"> Correo Electronico:</label>
+        <input type="email" id="email" name="email" required><br></br>
+        
+        <label for="">Password</label>
+        <input type="password"><br></br>
+
+        <label for="city">Ciudad  </label>
+        <select id="city" name="city">
+            <option value="poo">POO</option>
+            <option value="ai">IA</option>
+        </select><br></br>
+        <button type="submit">Enviar</button>
+    </form>
+     
+
+</body>
+</html>
