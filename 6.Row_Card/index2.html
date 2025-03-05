@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>ROW CARD</title>
+</head>
+<body>
+  <div class="container">
+   <!-- inicio 1 -->
+    <div class="row">
+        <div class="col-md-9">
+            <div class="card mt-4">
+                <div style="background-color: rgb(223, 65, 65);" class="card-header">
+                    <h6 class="text-white text-center" >Btn css</h6>                
+                </div>                
+                <div class="card-body">
+                    <button class="boton1" type="submit">Enviar</button>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card mt-4">
+                <div style="background-color: rgb(223, 65, 65);" class="card-header">
+                    <h6 class="text-white text-center" >Boton 2</h6>
+                </div>
+                
+                <div class="card-body">
+                    <button class="btn btn-danger">2 boton</button>
+
+                </div>
+
+            </div>
+
+                <div class="card mt-2">
+                    <div style="background-color: rgb(223, 65, 65);" class="card-header">
+                        <h6 class="text-white text-center" >Boton 3</h6>
+                    </div>
+                    
+                    <div class="card-body">
+                        <button class="btn btn-warning">3 boton</button>
+    
+                    </div>
+    
+                </div>            
+        </div>       
+    </div>
+
+    <!-- fin row 1 -->
+
+
+    <!-- inicio del 2 row -->
+    <div class="row">
+<div class="col-md-3">
+    <div class="card mt-4">
+        <div style="background-color: rgb(4, 244, 36);" class="card-header">
+            <h6 class="text-white text-center">Sol</h6>
+        </div>
+        <div class="card-body">
+<!-- agregar imagen y un texto -->
+<img width="200" height="200" src="./Image/2.jpg" alt="Imagen"> 
+        </div>
+    </div>
+</div>
+<div class="col-md-3">
+    <div class="card mt-4">
+        <div style="background-color: rgb(53, 192, 35);" class="card-header">
+            <h6 class="text-white text-center">Flor</h6>
+        </div>
+        <div class="card-body">
+<!-- agregar imagen y un texto -->
+        <img width="200" height="200" src="./Image/1.jpg" alt="Imagen"> 
+        </div>
+    </div>
+</div>
+<div class="col-md-6">
+    <div class="card mt-4">
+        <div style="background-color: rgb(52, 187, 97);" class="card-header">
+            <h6 class="text-white text-center">.................</h6>
+        </div>
+        <div  style="height: 250px;" class="card-body">
+<!-- agregar imagen y un texto -->
+ <p class="nada" >Nada</p>
+
+        </div>
+    </div>
+</div>
+ 
+  </div>
+  <!-- fin del segundo row -->
+
+  <!-- inicio del tercer row -->
+   <div class="row">
+    <div class="col-md-9">
+        <div class="card mt-4">
+            <div style="background-color: rgb(209, 74, 198);" class="card-header">
+                <h6 class="text-white text-center">Segundo card</h6>
+            </div>
+            <div class="card-body">
+    <!-- agregar imagen y un texto -->
+    <h1 class="parrafotitulo" >Formulario de Ejemplo</h1>
+    <form action="/submit" method="post">
+        <label for="name"> Nombre:</label>
+        <input type="text" id="name" name="name" required><br></br>
+
+        <label for="email"> Correo Electronico:</label>
+        <input type="email" id="email" name="email" required><br></br>
+        
+        <label for="password">Password</label>
+        <input type="password" name="password"><br></br>
+
+        <label for="city">Ciudad  </label>
+        <select id="city" name="city">
+            <option value="poo">POO</option>
+            <option value="ai">IA</option>
+        </select><br></br>
+        <button class="boton1" type="submit">Enviar</button>
+    </form>
+    <img width="200" height="200" src="./Image/4.jpg" alt="Imagen">
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card mt-2">
+            <div style="background-color: rgb(177, 28, 127);" class="card-header">
+                <h6 class="text-white text-center">Sol</h6>
+            </div>
+            <div class="card-body">
+    <!-- agregar imagen y un texto -->
+     <p>El Sol es la estrella que se encuentra en el centro del sistema solar y es la fuente principal de energía para la vida en la Tierra. </p>
+            </div>
+        </div>
+        <div class="card mt-2">
+            <div style="background-color: rgb(244, 4, 184);" class="card-header">
+                <h6 class="text-white text-center">Flor</h6>
+            </div>
+            <div class="card-body">
+    <!-- agregar imagen y un texto -->
+     <p>La flor es el órgano reproductivo de las plantas angiospermas y fanerógamas. Su función es producir semillas a través de la reproducción sexual. </p>
+            </div>
+    </div>
+    <div class="card mt-2">
+        <div style="background-color: rgb(244, 4, 144);" class="card-header">
+            <h6 class="text-white text-center">Luna</h6>
+        </div>
+        <div class="card-body">
+<!-- agregar imagen y un texto -->
+ <p>La Luna es el único satélite natural de la Tierra. Con un diámetro ecuatorial de 3474,8 km, es el quinto satélite más grande del sistema solar, mientras que en cuanto al tamaño proporcional respecto a su planeta es el satélite más grande: un cuarto del diámetro de la Tierra y 1/81 de su masa.</p>
+        </div>
+    </div>
+
+   </div>
+
+
+  <!-- fin del tercer row -->
+    
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
+
+</body>
+</html>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+</body>
+</html>
