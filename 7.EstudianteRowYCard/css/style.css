@@ -1,0 +1,14 @@
+.parrafotitulo{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: rgb(27, 26, 26);
+    
+}
+.boton{
+    border-radius: 10px;
+    background-color: rgb(156, 16, 16);
+    padding: 2px ;
+    color: rgb(243, 241, 241);
+    text-align: right;  
+}
