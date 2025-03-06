@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Formulario Alumno</title>
+</head>
+
+<body style="background-color: #f57091;">
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card mt-4">
+                <div style="background-color: #e9762a; " class="card-header card-header d-flex justify-content-between align-items-center">
+                    <h2 class="parrafotitulo">Información del Estudiante</h2>
+                    
+                    <button class="boton">Crear</button>
+                </div>
+                <div style="background-color: #faa991;" class="card-body">
+
+                    <div class="row">
+                        <div class="col-md-3">
+                            <label for="na">Nombre del Alumno</label>
+                            <input type="text" id="na" class="form-control">
+                        </div>
+                        <div class="col-md-3">
+                            <label for="ap">Apellido Paterno</label>
+                            <input type="text" id="ap" class="form-control">
+                        </div>
+                        <div class="col-md-3">
+                            <label for="am">Apellido Materno</label>
+                            <input type="text" id="am" class="form-control">
+                        </div>
+                        <div class="col-md-3">
+                            <label for="nc">Num. Control</label>
+                            <input type="text" id="nc" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="row mt-3">
+                        <div class="col-md-4">
+                            <label for="carrera">Seleccionar Carrera</label><br>
+                            <select id="carrera" >
+                                <option>Ingenieria en Sistemas Computacionales</option>
+                                <option>Ingenieria Civil</option>
+                                <option>Ingenieria industrial</option>
+                                <option>Ingenieria en Mecatronica</option>
+                                <option>Licenciatura en Administracion</option>
+                                <option>Licenciatura en Arquitectura</option>
+                                <option>Gestion Empresarial</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="semestre">Semestre</label>
+                            <input type="text" id="semestre" class="form-control">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="grupo">Grupo</label>
+                            <input type="text" id="grupo" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="row mt-3">
+                        <div class="col-md-4">
+                            <label for="Colonia">Colonia</label>
+                            <input type="text" id="Colonia" class="form-control">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="cp">Calle</label>
+                            <input type="text" id="calle" class="form-control">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="cp">C.P</label>
+                            <input type="text" id="cp" class="form-control">
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
+
+</body>
+</html>
